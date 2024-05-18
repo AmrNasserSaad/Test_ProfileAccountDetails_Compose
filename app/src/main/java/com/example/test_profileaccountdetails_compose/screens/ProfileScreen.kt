@@ -11,6 +11,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.test_profileaccountdetails_compose.R
 import com.example.test_profileaccountdetails_compose.composable.HeaderText
+import com.example.test_profileaccountdetails_compose.composable.InformationCard
 import com.example.test_profileaccountdetails_compose.composable.ProfileAvatar
 import com.example.test_profileaccountdetails_compose.composable.SpacerVertical24
 import com.example.test_profileaccountdetails_compose.composable.SpacerVertical32
@@ -34,9 +35,12 @@ fun ProfileScreen() {
 
         SpacerVertical24()
 
-        TextButton(text = "Change profile picture"){}
+        TextButton(text = "Change profile picture") {}
 
         SpacerVertical32()
+
+        InformationCard(title = "Location", information = "Egypt")
+
 
     }
 }
