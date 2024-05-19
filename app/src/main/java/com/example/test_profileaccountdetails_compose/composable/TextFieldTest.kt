@@ -58,8 +58,8 @@ fun TextFieldTest(modifier: Modifier = Modifier) {
                 }
             },
             colors = TextFieldDefaults.colors(
-                focusedContainerColor = Color.Red,
-                cursorColor = Color.Red,
+                focusedContainerColor = Color.White,
+                cursorColor = Color.Green,
             ),
             singleLine = true,
 
