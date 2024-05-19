@@ -4,6 +4,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
+import androidx.compose.material3.Icon
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -12,6 +13,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.test_profileaccountdetails_compose.R
+import com.example.test_profileaccountdetails_compose.composable.CustomButton
 import com.example.test_profileaccountdetails_compose.composable.DefaultButton
 import com.example.test_profileaccountdetails_compose.composable.HeaderText
 import com.example.test_profileaccountdetails_compose.composable.HorizontalInformationCard
@@ -58,6 +60,7 @@ fun ProfileScreen() {
 
         //this {} just for onClick lambda fun
         DefaultButton(text = stringResource(R.string.save), onClick = {})
+
     }
 }
 
