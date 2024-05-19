@@ -20,5 +20,4 @@ fun TextButton(text: String, onClick: () -> Unit) {
         modifier = Modifier.clickable { onClick() }
 
     )
-
 }
