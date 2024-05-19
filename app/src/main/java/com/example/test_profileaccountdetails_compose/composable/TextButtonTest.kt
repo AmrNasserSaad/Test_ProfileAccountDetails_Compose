@@ -10,7 +10,7 @@ import com.example.test_profileaccountdetails_compose.ui.theme.Orange
 import com.example.test_profileaccountdetails_compose.ui.theme.Rubik
 
 @Composable
-fun TextButton(text: String, onClick: () -> Unit) {
+fun TextButtonTest(text: String, onClick: () -> Unit) {
     Text(
         text = text,
         color = Orange,

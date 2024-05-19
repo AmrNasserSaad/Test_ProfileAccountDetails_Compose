@@ -8,8 +8,9 @@ import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material3.Button
 import androidx.compose.material3.Icon
+import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextField
+import androidx.compose.material3.TextButton
 import androidx.compose.material3.TextFieldDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -28,6 +29,7 @@ import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.test_profileaccountdetails_compose.R
+import com.example.test_profileaccountdetails_compose.ui.theme.Green
 
 
 @Composable
@@ -44,23 +46,23 @@ fun TextFieldTest(modifier: Modifier = Modifier) {
         val focusRequester = remember { FocusRequester() }
 
         // this for password
-        TextField(value = textInput, onValueChange = { textInput = it }, leadingIcon = {
+        OutlinedTextField(value = textInput, onValueChange = { textInput = it }, leadingIcon = {
             Icon(
                 painter = painterResource(id = R.drawable.ic_key), contentDescription = null
             )
-        }, trailingIcon = {
-            TextButton(
-                onClick = { isPasswordVisible = !isPasswordVisible },
-                text = if (isPasswordVisible) "Hide" else "Show"
-            )
-        }, colors = TextFieldDefaults.colors(
-            focusedContainerColor = Color.Transparent,
-            unfocusedContainerColor = Color.Transparent,
-            disabledContainerColor = Color.Transparent,
-            cursorColor = Color.Red,
-            focusedIndicatorColor = Color.Red,
-            unfocusedIndicatorColor = Color.Red,
-        ), singleLine = true,
+        },
+            trailingIcon = {
+                TextButton(onClick = { isPasswordVisible = !isPasswordVisible })
+                {
+                    Text(text = if (isPasswordVisible) "Hide" else "Show", color = Green)
+                }
+            },
+            colors = TextFieldDefaults.colors(
+                focusedContainerColor = Color.Red,
+                cursorColor = Color.Red,
+            ),
+            singleLine = true,
+
 //            placeholder = {
 //                //hint
 //                Text(text = "Enter your password")
@@ -88,6 +90,7 @@ fun TextFieldTest(modifier: Modifier = Modifier) {
             // focus requester
             modifier = Modifier.focusRequester(focusRequester)
         )
+        SpacerVertical24()
         // focus requester btn
         Button(onClick = { focusRequester.requestFocus() }) {
             Text(text = "Request Focus")
