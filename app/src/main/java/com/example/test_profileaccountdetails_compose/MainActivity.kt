@@ -5,6 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import com.example.test_profileaccountdetails_compose.composable.TextFieldTest
+import com.example.test_profileaccountdetails_compose.screens.LoginScreen
 import com.example.test_profileaccountdetails_compose.ui.theme.Test_ProfileAccountDetails_ComposeTheme
 
 class MainActivity : ComponentActivity() {
@@ -12,9 +13,9 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            Test_ProfileAccountDetails_ComposeTheme {
 
-            }
+            LoginScreen()
+
         }
     }
 }

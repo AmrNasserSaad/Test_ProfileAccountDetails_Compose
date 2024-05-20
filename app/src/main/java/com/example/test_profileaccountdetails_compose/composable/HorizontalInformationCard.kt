@@ -18,7 +18,7 @@ fun HorizontalInformationCard() {
             InformationCard(title = stringResource(R.string.first_name), information = "Amr")
         }
 
-        Spacer(modifier = Modifier.width(16.dp))
+        SpacerHorizontal16()
 
         Box(modifier = Modifier.weight(1f)) {
             InformationCard(title = stringResource(R.string.last_name), information = "Nasser ")
