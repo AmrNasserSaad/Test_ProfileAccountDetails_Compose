@@ -12,7 +12,7 @@ import com.example.test_profileaccountdetails_compose.R
 fun BackGroundElhendawy(modifier: Modifier = Modifier) {
     Image(
         modifier = Modifier.fillMaxWidth(),
-        painter = painterResource(id = R.drawable.background_image),
+        painter = painterResource(id = R.drawable.backgroound_image),
         contentDescription = null,
         contentScale = ContentScale.Crop,
     )
