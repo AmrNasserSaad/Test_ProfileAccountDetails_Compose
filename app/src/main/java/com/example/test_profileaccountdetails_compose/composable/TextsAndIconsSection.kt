@@ -9,6 +9,7 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.material3.Text
@@ -30,7 +31,7 @@ import com.example.test_profileaccountdetails_compose.ui.theme.TextColorElHendaw
 @Composable
 fun TextsAndIconsSection() {
     Column(
-        modifier = Modifier.fillMaxWidth(),
+        modifier = Modifier.fillMaxWidth().padding(horizontal = 24.dp),
         horizontalAlignment = Alignment.Start
     ) {
 
@@ -68,7 +69,7 @@ fun TextsAndIconsSection() {
             modifier = Modifier
                 .fillMaxWidth(),
             verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.SpaceBetween
+            horizontalArrangement = Arrangement.spacedBy(48.dp)
         ) {
             TripsText(mainText = "2,523", subText = "Trips")
             Column() {
@@ -103,14 +104,6 @@ fun TextsAndIconsSection() {
 
             TripsText(mainText = "2", subText = "Years")
         }
-        SpacerVertical32()
-
-        Box(
-            modifier = Modifier
-                .fillMaxWidth()
-                .height(1.dp)
-                .background(BackgroundColorShape)
-        )
 
 
     }

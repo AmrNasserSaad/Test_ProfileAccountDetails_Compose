@@ -7,6 +7,7 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.material3.Text
@@ -29,7 +30,7 @@ import com.example.test_profileaccountdetails_compose.ui.theme.TextColorElHendaw
 fun AchievementsSection(modifier: Modifier = Modifier) {
     Column(
         modifier = modifier
-            .fillMaxWidth()
+            .fillMaxWidth().padding(horizontal = 24.dp)
 
     ) {
         Text(
@@ -46,7 +47,7 @@ fun AchievementsSection(modifier: Modifier = Modifier) {
                 "1000 5-Star\n" +
                         " Trips"
             )
-            Spacer(modifier = Modifier.width(16.dp))
+            Spacer(modifier = Modifier.width(32.dp))
             ImageBottonText(
                 "2 Years with\n" +
                         " Uber"

@@ -27,7 +27,7 @@ val LightBlueWhite = Color(0xFFF1F5F9) //Social media background
 val BlueGray = Color(0xFF334155)
 
 // elhandway
-val BackgroundColorShape = Color(0xFF8784AB)
+val BackgroundColorShape = Color(0xFF8885AC)
 val TextColorElHendawy = Color(0xFF15104D)
 
 
