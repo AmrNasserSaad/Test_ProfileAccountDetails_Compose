@@ -46,7 +46,7 @@ fun AchievementsSection(modifier: Modifier = Modifier) {
                 "1000 5-Star\n" +
                         " Trips"
             )
-            Spacer(modifier = Modifier.width(10.dp))
+            Spacer(modifier = Modifier.width(16.dp))
             ImageBottonText(
                 "2 Years with\n" +
                         " Uber"

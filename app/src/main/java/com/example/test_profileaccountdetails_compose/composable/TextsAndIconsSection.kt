@@ -47,7 +47,7 @@ fun TextsAndIconsSection() {
         Row {
             Image(
                 modifier = Modifier.size(20.dp),
-                painter = painterResource(id = R.drawable.logo),
+                painter = painterResource(id = R.drawable.chip),
                 contentDescription = null
             )
             Spacer(modifier = Modifier.width(8.dp))
@@ -77,22 +77,22 @@ fun TextsAndIconsSection() {
                     verticalAlignment = Alignment.CenterVertically
                 ) {
                     Text(
-                        text = "mainText",
+                        text = "5.00",
                         color = TextColorElHendawy,
                         fontFamily = Inter,
                         fontSize = 22.sp,
                         fontWeight = FontWeight.SemiBold
                     )
-                    Spacer(modifier = Modifier.width(8.dp))
+                    Spacer(modifier = Modifier.width(4.dp))
                     Image(
-                        painter = painterResource(id = R.drawable.facebook),
+                        painter = painterResource(id = R.drawable.star),
                         contentDescription = null,
                     )
 
                 }
 
                 Text(
-                    text = "subText",
+                    text = "Rating",
                     color = TextColorElHendawy,
                     fontFamily = Inter,
                     fontSize = 14.sp,
@@ -121,7 +121,7 @@ private fun UnderlinedTextTest(text: String, underlinedText: String) {
     Row {
         Image(
             modifier = Modifier.size(20.dp),
-            painter = painterResource(id = R.drawable.google),
+            painter = painterResource(id = R.drawable.chip),
             contentDescription = null
         )
         Spacer(modifier = Modifier.width(8.dp))
