@@ -100,7 +100,7 @@ fun ImageWithIconsAndCircleImage(modifier: Modifier = Modifier) {
 
             }
                 .padding(bottom = 40.dp)
-                .size(124.dp)
+                .size(132.dp)
                 .clip(CircleShape),
             painter = painterResource(id = R.drawable.avatarframe),
             contentDescription = null,
