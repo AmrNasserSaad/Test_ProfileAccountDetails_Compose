@@ -10,7 +10,7 @@ Test login screen with materials Design 3
 
 
 
-Test profile  screen  Designed by ui ux designer: Amr Elhendawy 
+Test profile  screen  Designed by UI UX designer: Amr Elhendawy 
 
 ![Screenshot_111](https://github.com/AmrNasserSaad/Test_ProfileAccountDetails_Compose/assets/105106529/78aec1ac-983c-4188-8124-d918fc7a89b7)
 ![Untitled – Figma - Google Chrome 5_21_2024 9_20_09 PM](https://github.com/AmrNasserSaad/Test_ProfileAccountDetails_Compose/assets/105106529/3ec7e596-3cf2-4606-8df3-e4bb7ca55619)
