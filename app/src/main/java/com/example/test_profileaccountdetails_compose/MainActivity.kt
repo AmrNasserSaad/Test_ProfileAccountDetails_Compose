@@ -13,8 +13,6 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
 
-            TestScaffold()
-
         }
     }
 }
