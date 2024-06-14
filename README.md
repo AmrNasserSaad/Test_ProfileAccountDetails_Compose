@@ -23,10 +23,14 @@ Dashboard (Home and login and register) Screens
 
 ## Images
 <div style="display: flex; flex-direction: row;">
-    <img src="![Running Devices - Test_ProfileAccountDetails_Compose 6_14_2024 5_51_28 PM (2)](https://github.com/AmrNasserSaad/Test_ProfileAccountDetails_Compose/assets/105106529/942a6df7-27c0-4c78-ab7a-0c98a4bb2d7d)
-" alt="Image 1" width="200" height="200" style="margin-right: 10px;"/>
-    <img src="![Running Devices - Test_ProfileAccountDetails_Compose 6_14_2024 5_51_28 PM (2)](https://github.com/AmrNasserSaad/Test_ProfileAccountDetails_Compose/assets/105106529/31013b0c-1965-43ef-b3aa-13e0f466e69b)
-" alt="Image 2" width="200" height="200" style="margin-right: 10px;"/>
-    <img src="![Running Devices - Test_ProfileAccountDetails_Compose 6_14_2024 5_51_28 PM (2)](https://github.com/AmrNasserSaad/Test_ProfileAccountDetails_Compose/assets/105106529/9523e4e6-fd74-4069-bbf8-472c26be8fca)
-" alt="Image 3" width="200" height="200" />
+    <img src="![3](https://github.com/AmrNasserSaad/Test_ProfileAccountDetails_Compose/assets/105106529/09c2143c-3c6e-40d3-8994-3c4c3254f8ef)" alt="Image 1" width="200" height="200" style="margin-right: 10px;"/>
+    <img src="![2](https://github.com/AmrNasserSaad/Test_ProfileAccountDetails_Compose/assets/105106529/fa4c65b5-ab4d-4c84-8d02-5eafd2b6c434)" alt="Image 2" width="200" height="200" style="margin-right: 10px;"/>
+    <img src="![1](https://github.com/AmrNasserSaad/Test_ProfileAccountDetails_Compose/assets/105106529/d94a6875-c103-498e-9901-a39dc99e6fd5)" alt="Image 3" width="200" height="200" />
 </div>
+
+
+
+
+![3](https://github.com/AmrNasserSaad/Test_ProfileAccountDetails_Compose/assets/105106529/09c2143c-3c6e-40d3-8994-3c4c3254f8ef)
+![2](https://github.com/AmrNasserSaad/Test_ProfileAccountDetails_Compose/assets/105106529/fa4c65b5-ab4d-4c84-8d02-5eafd2b6c434)
+![1](https://github.com/AmrNasserSaad/Test_ProfileAccountDetails_Compose/assets/105106529/d94a6875-c103-498e-9901-a39dc99e6fd5)
