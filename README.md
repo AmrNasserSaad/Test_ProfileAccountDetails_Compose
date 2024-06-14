@@ -16,7 +16,17 @@ Test profile  screen  Designed by UI UX designer: Amr Elhendawy
 ![Untitled – Figma - Google Chrome 5_21_2024 9_20_09 PM](https://github.com/AmrNasserSaad/Test_ProfileAccountDetails_Compose/assets/105106529/3ec7e596-3cf2-4606-8df3-e4bb7ca55619)
 
 
-Test Dashboard App 
+# Dashboard App  Home and login and register Screens 
 
+## Description
+Dashboard (Home and login and register) Screens 
 
-![Test_ProfileAccountDetails_Compose – Home kt  Test_ProfileAccountDetails_Compose app main  6_13_2024 9_28_22 PM (2)](https://github.com/AmrNasserSaad/Test_ProfileAccountDetails_Compose/assets/105106529/9f5b0947-5955-4f87-8e41-a0ee0d2a2087)
+## Images
+<div style="display: flex; flex-direction: row;">
+    <img src="![Running Devices - Test_ProfileAccountDetails_Compose 6_14_2024 5_51_28 PM (2)](https://github.com/AmrNasserSaad/Test_ProfileAccountDetails_Compose/assets/105106529/942a6df7-27c0-4c78-ab7a-0c98a4bb2d7d)
+" alt="Image 1" width="200" height="200" style="margin-right: 10px;"/>
+    <img src="![Running Devices - Test_ProfileAccountDetails_Compose 6_14_2024 5_51_28 PM (2)](https://github.com/AmrNasserSaad/Test_ProfileAccountDetails_Compose/assets/105106529/31013b0c-1965-43ef-b3aa-13e0f466e69b)
+" alt="Image 2" width="200" height="200" style="margin-right: 10px;"/>
+    <img src="![Running Devices - Test_ProfileAccountDetails_Compose 6_14_2024 5_51_28 PM (2)](https://github.com/AmrNasserSaad/Test_ProfileAccountDetails_Compose/assets/105106529/9523e4e6-fd74-4069-bbf8-472c26be8fca)
+" alt="Image 3" width="200" height="200" />
+</div>
