@@ -1,5 +1,6 @@
 package com.example.test_profileaccountdetails_compose.dashBoard.composableFuns
 
+import androidx.annotation.DrawableRes
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
@@ -20,10 +21,12 @@ import androidx.compose.ui.unit.sp
 import com.example.test_profileaccountdetails_compose.R
 
 @Composable
- fun cardFeature() {
+fun cardFeature(
+    @DrawableRes img: Int, text: String
+) {
     Column(
         modifier = Modifier
-            .padding(top = 12.dp, bottom = 12.dp, end = 12.dp)
+            .padding(8.dp)
             .width(91.dp)
             .height(91.dp)
             .background(
@@ -32,12 +35,12 @@ import com.example.test_profileaccountdetails_compose.R
             ), horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Image(
-            painter = painterResource(id = R.drawable.video_call),
+            painter = painterResource(id = img),
             contentDescription = null,
             modifier = Modifier.padding(top = 8.dp, bottom = 4.dp)
         )
         Text(
-            text = "Video Call",
+            text = text,
             color = Color(android.graphics.Color.parseColor("#c77710")),
             fontSize = 14.sp,
             fontWeight = FontWeight.Bold,
@@ -46,3 +49,4 @@ import com.example.test_profileaccountdetails_compose.R
 
     }
 }
+

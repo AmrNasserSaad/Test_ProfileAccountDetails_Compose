@@ -4,8 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import com.example.test_profileaccountdetails_compose.composable.TestScaffold
-import com.example.test_profileaccountdetails_compose.screens.ProfileScreenElhendawy
+import com.example.test_profileaccountdetails_compose.dashBoard.HomeScreenDashboard
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
