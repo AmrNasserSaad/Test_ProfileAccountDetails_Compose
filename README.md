@@ -19,3 +19,4 @@
     <img src="https://github.com/AmrNasserSaad/Test_ProfileAccountDetails_Compose/assets/105106529/fa4c65b5-ab4d-4c84-8d02-5eafd2b6c434" alt="Dashboard Login Screen" width="300" height="500" style="margin-right: 10px;" />
     <img src="https://github.com/AmrNasserSaad/Test_ProfileAccountDetails_Compose/assets/105106529/d94a6875-c103-498e-9901-a39dc99e6fd5" alt="Dashboard Register Screen" width="300" height="500" />
 </div>
+
